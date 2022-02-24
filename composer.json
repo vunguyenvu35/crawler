@@ -1,0 +1,22 @@
+{
+    "name": "vunv/crawler",
+    "description": "This is crawler project by John Vu",
+    "type": "metapackage",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vunv\\Crawler\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "John Vu",
+            "email": "vunguyenvu35@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "php": "^7.2.5|^8.0",
+        "phpunit/phpunit": "^8.5.23"
+    }
+}
